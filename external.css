@@ -171,3 +171,9 @@ a{
     gap: 36px;
     flex-shrink: 0;
 }
+
+.imgCustom{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
