@@ -1,0 +1,162 @@
+.html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+fontKhususNama{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #405CF0 0%, #8528CE 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+font1{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(116deg, #405CF0 17.08%, #8528CE 66.27%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+font2{
+    color: #0B0A0A;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+font3{
+    font-family: Plus Jakarta Sans;
+    font-size: 60px;    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #405CF0 0%, #8528CE 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+font4{
+    color: #0B0A0A;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    line-height: 30px; /* 187.5% */
+    flex-wrap: wrap;
+    width: 360px;
+    height: 118px;
+}
+
+font5{
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+font6{
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+#gantiWarna:hover{
+    background: linear-gradient(180deg, #405CF0 0%, #8528CE 100%);
+}
+
+.container-fluidCustom{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.img1{
+    height: 400px;
+    width: 350px;
+}
+
+.card-body{
+    border-radius: 0px 0px 20px 20px;
+    background: linear-gradient(153deg, #405CF0 28.84%, #8528CE 83.33%);
+}
+
+/*WAVY EFFECT*/
+.wave{
+    display: block;
+    position: relative;
+    height: 30px;
+    width: 40px;
+    background: linear-gradient(153deg, #405CF0 28.84%, #8528CE 83.33%);
+    transform: scale(1,1);
+}
+
+.wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    right: -25%;
+    top: 20px
+}
+
+.wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(57, 27, 112);
+    left: -25%;
+    top: -240px;
+    clip-path: ellipse(100% 15% at -15% 100%);
+}
+
+.menuNavbar{
+    flex-direction: row;
+    position: relative;
+}
+
+li{
+    list-style-type: none;
+    justify-items: flex-end;
+}
+
+.setFont{
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer{
+    background: linear-gradient(153deg, #405CF0 28.84%, #8528CE 83.33%);
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
