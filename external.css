@@ -94,12 +94,6 @@ font6{
     font-weight: 300;
 }
 
-.container-fluidCustom{
-    display: flex;
-    height: 100%;
-    width: 100%;
-}
-
 .img1{
     height: 400px;
     width: 350px;
@@ -139,17 +133,6 @@ a{
     display: flex;
 }
 
-.customContainer{
-    display: flex;
-    width: 1440px;
-    height: 631px;
-    padding: 20px 45px;
-    flex-direction: column;
-    align-items: center;
-    gap: 36px;
-    flex-shrink: 0;
-}
-
 .imgCustom{
     height: 20px;
     width: 20px;
@@ -185,4 +168,51 @@ a{
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
+}
+
+@media screen and (min-width: 450px) {
+    .contaner-fluid{
+        width: fit-content;
+        height: fit-content;
+    }
+    .menuNavbar{
+        width: fit-content;
+        height: fit-content;
+    }
+    .img1{
+        width: fit-content;
+        height: fit-content;
+    }
+    .imgCustom{
+        width: fit-content;
+        height: fit-content;
+    }
+    .imgIcon{
+        width: fit-content;
+        height: fit-content;
+    }
+    .footer{
+        width: fit-content;
+        height: fit-content;
+    }
+    .card-body{
+        width: fit-content;
+        height: fit-content;
+    }
+    .carousel-control-next{
+        width: fit-content;
+        height: fit-content;
+    }
+    .carousel-control-prev{
+        width: fit-content;
+        height: fit-content;
+    }
+    .carousel-inner{
+        width: fit-content;
+        height: fit-content;
+    }
+    .carousel-item{
+        width: fit-content;
+        height: fit-content;
+    }
 }
