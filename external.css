@@ -1,4 +1,4 @@
-.html{
+html{
     scroll-behavior: smooth;
 }
 
@@ -65,6 +65,19 @@ font4{
     height: 118px;
 }
 
+font4NoSpacing{
+    color: #0B0A0A;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 187.5% */
+    flex-wrap: wrap;
+    width: 360px;
+    height: 118px;
+}
+
+
 font5{
     color: #fff;
     font-family: Plus Jakarta Sans;
@@ -79,10 +92,6 @@ font6{
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-}
-
-#gantiWarna:hover{
-    background: linear-gradient(180deg, #405CF0 0%, #8528CE 100%);
 }
 
 .container-fluidCustom{
