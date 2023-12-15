@@ -170,7 +170,7 @@ a{
     transform: translateY(-50%);
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 450px) {
     .contaner-fluid{
         width: fit-content;
         height: fit-content;
